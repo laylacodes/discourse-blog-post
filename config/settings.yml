@@ -1,0 +1,15 @@
+plugins:
+  blog_post_enabled:
+    default: false
+    client: true
+  blog_post_allowed_groups:
+    type: list
+    default: "admins|moderators"
+    client: true
+  blog_post_allowed_categories:
+    type: list
+    default: ""
+    client: true
+  blog_post_use_default_styles:
+    default: true
+    client: true
